@@ -1,0 +1,6 @@
+div{
+    height: 100px;
+    width:100px;
+    background-image: url("CAT_PHOTO.jpg");
+    background-size: cover;
+}

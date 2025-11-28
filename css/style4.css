@@ -1,0 +1,39 @@
+body{ 
+    text-align: center;
+}
+
+div{
+    height:100px;
+    width:100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width:800px;
+    height: 200px;;
+    display:flex ;
+    flexbox-direction: row (default;)
+    
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: pink;
+}
+
+#box3 {
+    background-color: yellow;
+}
+
+#box4 {
+    background-color: violet;
+}
+
+#box5 {
+    background-color: orange;
+}
+

@@ -1,0 +1,54 @@
+h1 {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: rgb(137, 164, 175);
+}
+
+button {
+    text-align: center;
+    padding: 5px 50px;
+    background-color: blue;
+    
+}
+
+img {
+    height: 150px;
+}
+
+.box {
+    width: fit-content;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+
+}
+
+.outer{
+    padding: 5px;
+}
+
+#info {
+    text-align: left;
+    color: rgba(24, 92, 37, 0.549);
+}
+
+#price {
+    text-align: left;
+}
+
+#lowerprice {
+    font-size: x-large;
+    color: green;
+}
+#col{
+    display: flex;
+    flex-wrap: wrap;
+
+}
