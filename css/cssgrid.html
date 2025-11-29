@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssgrid.css">
+    <title>Css Grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vh;
+        }
+
+        .container {
+            background-color: aqua;
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            border: 2px solid black;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+        }
+
+        .item {
+            background-color: lightgreen;
+            border: bold red 1px;
+        }
+
+        .item1 {
+            grid-column: 1/7;
+            grid-row: 1/2;
+            margin: 5px;
+        }
+
+        .item2 {
+            grid-column: 1/3;
+            grid-row: 2/4;
+            margin: 5px;
+            color: blue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .item3 {
+            grid-column: 3/7;
+            grid-row: 2/4;
+            margin: 5px;
+        }
+
+        .item4 {
+            grid-column: 1/3;
+            grid-row: 4/6;
+            margin: 5px;
+        }
+
+        .item5 {
+            grid-column: 3/7;
+            grid-row: 4/6;
+            margin: 5px;
+        }
+
+        .item6 {
+            grid-column: 1/7;
+            grid-row: 6/7;
+            margin: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        h1 {
+            background-color: grey;
+            text-align: center;
+        }
+
+        ul {
+            background-color: rgb(72, 111, 126);
+            list-style-type: none;
+
+        }
+
+        #d1 {
+            background-color: rgb(167, 179, 140);
+            display: inline-block;
+            padding: 10px;
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item1">
+            <div>
+                <ul>
+                    <li id="d1"><a href="https://share.google/qAreRNMH3IAaZr3zw">Home</a></li>
+                    <li id="d1"><a href="gopalandsons.html">about</a></li>
+                    <li id="d1"><a href="https://maps.app.goo.gl/NFHfzXvLjZamCP4z9">location</a></li>
+                    <li id="d1"><a href="contact.html">contact</a></li>
+                    <input type="text" class="search-box" placeholder="Search...">
+                </ul>
+            </div>
+        </div>
+        <div class="item item2">
+            <p>“Transform your house into a home with elegant décor.”
+                “Style that speaks comfort and beauty.”
+                “Where creativity meets coziness.”
+                “Your one-stop destination for stunning home décor.”
+                “Design your dream space with us.”
+            </p> 
+        </div>
+        <div class="item item3"><img height="200" width="350px" src="Screenshot 2025-11-29 113822.png" alt=""> </div>
+        <div class="item item4"><img height="200" width="200" src="Screenshot 2025-11-29 115604.png" alt=""></div>
+        <div class="item item5"><img height="150" width="350px" src="Screenshot 2025-11-29 115122 copy.png" alt=""></div>
+        <div class="item item6"><h2>For more Info You Can visit To Our Shop</h2>
+        <p>contactus at : 9814493056,8264763056</p></div>
+    </div>
+
+</body>
+
+</html>
