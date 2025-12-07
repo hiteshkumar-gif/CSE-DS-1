@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive E-commerce Navbar</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+        padding: 10px 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 0;
+    }
+
+    .logo {
+        font-size: 22px;
+        font-weight: bold;
+        color: #0ea5e9;
+    }
+    .nav-links {
+        display: flex;
+        gap: 30px;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+    }
+    .nav-links {
+        color: #0ea5e9;
+    }
+    .search-box {
+        flex: 1;
+        margin: 0 20px;
+    }
+    .search-box input {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+    }
+    .cart {
+        font-size: 20px;
+        color: #333;
+        cursor: pointer;
+    }
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .hamburger span {
+        width: 25px;
+        height: 3px;
+        background: #333;
+        margin: 4px 0;
+    }
+    @media (max-width: 768px) {
+        .nav-links, .search-box {
+            display: none;
+        }
+       
+        }
+        .nav-links {
+            flex-direction: column;
+            gap: 10px;
+            display: inline-block;
+        }
+    
+</style>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+    <div class="logo">ShopMate</div>
+    <div class="search-box">
+        <input type="text" placeholder="Search products...">
+    </div>
+    <div class="nav-links">
+        <a>Home</a>
+        <a>Shop</a>
+        <a>Deals</a>
+        <a>Contact</a>
+    </div>
+    <div class="cart">🛒</div>
+</nav>
+
+</body>
+</html>
